@@ -1,0 +1,9 @@
+condition = True
+while(condition):
+    student_info = input("enter same student information:")
+    print(student_info)
+    condition_check = input("enter(yes/no) if you want to enter information for another student:")
+    if condition_check == "yes":
+        condition = True
+    elif condition_check == "no":
+        condition = False
